@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 import '../widgets/page_title.dart';
 
 class Webmail extends StatefulWidget {
@@ -9,29 +10,33 @@ class Webmail extends StatefulWidget {
 }
 
 class _WebmailState extends State<Webmail> {
-  @override
-  void initState() {
-    super.initState();
-  }
+  final controller = WebViewController()
+    ..setJavaScriptMode(JavaScriptMode.unrestricted)
+    ..loadRequest(Uri.parse('https://mail.hostinger.com'));
 
   @override
   Widget build(BuildContext context) {
     double h = MediaQuery.of(context).size.height;
     return Scaffold(
-      body: Column(
-        children: [
-          const PageTitle(
-            title: 'WEBMAIL',
-          ),
-          SizedBox(
-            height: h * 0.04,
-          ),
-          SizedBox(
-            width: double.infinity,
-            height: h * 0.8,
-            child: const Text('data'),
-          )
-        ],
+      body: SingleChildScrollView(
+        physics: const NeverScrollableScrollPhysics(),
+        child: Column(
+          children: [
+            const PageTitle(
+              title: 'WEBMAIL',
+            ),
+            SizedBox(
+              height: h * 0.02,
+            ),
+            SizedBox(
+              height: h,
+              width: double.infinity,
+              child: WebViewWidget(
+                controller: controller,
+              ),
+            )
+          ],
+        ),
       ),
     );
   }

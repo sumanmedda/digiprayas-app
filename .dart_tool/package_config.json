@@ -242,6 +242,30 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "webview_flutter",
+      "rootUri": "file:///Users/sumanmedda/.pub-cache/hosted/pub.dev/webview_flutter-4.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "webview_flutter_android",
+      "rootUri": "file:///Users/sumanmedda/.pub-cache/hosted/pub.dev/webview_flutter_android-3.16.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "webview_flutter_platform_interface",
+      "rootUri": "file:///Users/sumanmedda/.pub-cache/hosted/pub.dev/webview_flutter_platform_interface-2.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "webview_flutter_wkwebview",
+      "rootUri": "file:///Users/sumanmedda/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.14.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "xdg_directories",
       "rootUri": "file:///Users/sumanmedda/.pub-cache/hosted/pub.dev/xdg_directories-1.0.4",
       "packageUri": "lib/",
@@ -254,7 +278,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-08-14T11:45:41.341474Z",
+  "generated": "2024-08-14T11:57:08.220082Z",
   "generator": "pub",
   "generatorVersion": "3.4.4",
   "flutterRoot": "file:///Users/sumanmedda/Documents/flutter",

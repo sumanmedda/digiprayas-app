@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		t4T0/v+pOcsCiK1bMfC71WS94a0=
+		bKAXQSH01rp+vGzkP3gWgVeI1p4=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		6bFTLzGhK8wPHu7BNv2ADMmiRMY=
+		wCVaQKMEWKxJuvRMN8tT7Owe8oQ=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		w2Ak9SuTyjOIY0RakHdr+4a2//A=
+		pW5d4ifjzQJpaSQaXUmFM6ylilI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/DIGIPRAYAS.png</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		dlTzu6hSi0nrFgRmB8beq6d9QWI=
+		0FrjwQTgWmRs/wI+KOH6+lT64Q4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -208,6 +208,26 @@
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
+		<key>Frameworks/webview_flutter_wkwebview.framework/Info.plist</key>
+		<data>
+		mS3oWDJrobDHEMEZubeNCpxuJJM=
+		</data>
+		<key>Frameworks/webview_flutter_wkwebview.framework/_CodeSignature/CodeResources</key>
+		<data>
+		PYdeOo3lKACUIcLvbg4A0RYc4h0=
+		</data>
+		<key>Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview</key>
+		<data>
+		kfz1I+zQwK/bTn4xUoHSpgEgfFg=
+		</data>
+		<key>Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview_privacy.bundle/Info.plist</key>
+		<data>
+		++au303he2LrNFS/HI4gfNH8M40=
+		</data>
+		<key>Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		36DZqL1OnymxCY6qQIjMVnbm3b0=
@@ -293,7 +313,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			35bzzLaZRKB4j3O4bZiRxp2fD67Eo+pJ2aClh5SJ+Is=
+			vj/YnIOlyq3lXbTHnNVrz8Vr6Hqd2Y8DbHvcDTNxX7E=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -307,7 +327,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bbvBqHCcmMS5UTM+qUX2jQXZdwJt6LQ2o4d3glzNGI4=
+			NQYBRofvWj9Nfhxv6imyN3LJmibf4ECBn0c8vPv6I6g=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -335,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AYhPBDR1wTqyw5uIhqzZRoaZXnDs2D31kVj49TGqHMs=
+			SzZZ73/W1CSp19AeFNEdtXShbeszF4aZPNZyDollXrs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/DIGIPRAYAS.png</key>
@@ -363,7 +383,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8Ipse/4vW+T5LneHKTV5kfau0BUkdPPDpcejYFyd74=
+			via+FeLM8tIiTBsAM8Y1sF1+SXIHRD1qkWjqt7FzoeA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -570,6 +590,41 @@
 			</data>
 		</dict>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
+			</data>
+		</dict>
+		<key>Frameworks/webview_flutter_wkwebview.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BUoyuO4NRot8SJvGMRGDZiEnfV0AlMuUPZ83+YEicZ4=
+			</data>
+		</dict>
+		<key>Frameworks/webview_flutter_wkwebview.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			stzBf1m9DcL4OJz4OxP3CtZAg+/ZnyumdLcnX1b5X1Y=
+			</data>
+		</dict>
+		<key>Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pQpc+LH1mjbZoseSqx2pDhwm3y06G/68G+8Y2mLMCIQ=
+			</data>
+		</dict>
+		<key>Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b9RB8F+LUGGic6xHg4Zg/B/3eLyfMcfsnw7yTnl4GQk=
+			</data>
+		</dict>
+		<key>Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>

@@ -4,3 +4,6 @@ path_provider_android=/Users/sumanmedda/.pub-cache/hosted/pub.dev/path_provider_
 path_provider_foundation=/Users/sumanmedda/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/
 path_provider_linux=/Users/sumanmedda/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
 path_provider_windows=/Users/sumanmedda/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+webview_flutter=/Users/sumanmedda/.pub-cache/hosted/pub.dev/webview_flutter-4.8.0/
+webview_flutter_android=/Users/sumanmedda/.pub-cache/hosted/pub.dev/webview_flutter_android-3.16.6/
+webview_flutter_wkwebview=/Users/sumanmedda/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.14.0/
