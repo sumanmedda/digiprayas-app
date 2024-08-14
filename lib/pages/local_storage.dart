@@ -90,52 +90,60 @@ class _LocalStorageState extends State<LocalStorage> {
                 SizedBox(
                   height: h * 0.58,
                   width: double.infinity,
-                  child: ListView.builder(
-                      padding: EdgeInsets.zero,
-                      itemCount: box.length,
-                      itemBuilder: (context, index) {
-                        return Column(
-                          children: [
-                            Padding(
-                              padding: EdgeInsets.only(
-                                  left: w * 0.05, right: w * 0.05, top: 20),
-                              child: const Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text('Key'),
-                                  Text('value'),
-                                  Text('Delete'),
-                                ],
-                              ),
-                            ),
-                            Container(
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(12),
-                                  border: Border.all(color: Colors.black)),
-                              child: ListTile(
-                                  leading: SelectableText(
-                                    box.keys.elementAt(index),
-                                    style: const TextStyle(fontSize: 20),
+                  child: box.length < 1
+                      ? const Center(
+                          child: Text(
+                          'No Data Found',
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.w400),
+                        ))
+                      : ListView.builder(
+                          padding: EdgeInsets.zero,
+                          itemCount: box.length,
+                          itemBuilder: (context, index) {
+                            return Column(
+                              children: [
+                                Padding(
+                                  padding: EdgeInsets.only(
+                                      left: w * 0.05, right: w * 0.05, top: 20),
+                                  child: const Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text('Key'),
+                                      Text('value'),
+                                      Text('Delete'),
+                                    ],
                                   ),
-                                  title: SelectableText(
-                                    box
-                                        .get(box.keys.elementAt(index))
-                                        .toString(),
-                                    style: const TextStyle(fontSize: 20),
-                                  ),
-                                  trailing: TextButton(
-                                    child: const Icon(Icons.delete),
-                                    onPressed: () {
-                                      setState(() {
-                                        box.delete(box.keys.elementAt(index));
-                                      });
-                                    },
-                                  )),
-                            ),
-                          ],
-                        );
-                      }),
+                                ),
+                                Container(
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(12),
+                                      border: Border.all(color: Colors.black)),
+                                  child: ListTile(
+                                      leading: SelectableText(
+                                        box.keys.elementAt(index),
+                                        style: const TextStyle(fontSize: 20),
+                                      ),
+                                      title: SelectableText(
+                                        box
+                                            .get(box.keys.elementAt(index))
+                                            .toString(),
+                                        style: const TextStyle(fontSize: 20),
+                                      ),
+                                      trailing: TextButton(
+                                        child: const Icon(Icons.delete),
+                                        onPressed: () {
+                                          setState(() {
+                                            box.delete(
+                                                box.keys.elementAt(index));
+                                          });
+                                        },
+                                      )),
+                                ),
+                              ],
+                            );
+                          }),
                 )
               ],
             ),
